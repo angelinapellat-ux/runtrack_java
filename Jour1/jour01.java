@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class jour01 {
     public static void main(String[] args) {
 
