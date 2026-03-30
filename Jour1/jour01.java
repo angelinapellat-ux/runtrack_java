@@ -1,22 +1,16 @@
 public class jour01 {
     public static void main(String[] args) {
 
-        char lettre = 'A';
-        String texte = "Bonjour";
-        int entier = 42;
-        long grandNombre = 123456789L;
-        float decimal = 3.14f;
-        boolean vraiOuFaux = true;
+        int[] T = new int[10];
 
-        System.out.println("char : " + lettre);
-        System.out.println("String : " + texte);
-        System.out.println("int : " + entier);
-        System.out.println("long : " + grandNombre);
-        System.out.println("float : " + decimal);
-        System.out.println("boolean : " + vraiOuFaux);
+        for (int i = 0; i < 10; i++) {
+            T[i] = i;
+        }
 
-        // Cas particulier demandé
-        int TOTO = (int) 3.817;
-        System.out.println("Valeur de TOTO : " + TOTO);
+        System.out.println("T[0] = " + T[0]);
+        System.out.println("T[1] = " + T[1]);
+        System.out.println("T[5] = " + T[5]);
+        System.out.println("T[9] = " + T[9]);
+
     }
 }
