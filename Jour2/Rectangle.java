@@ -36,13 +36,3 @@ public class Rectangle {
     }
 }
 
-public class FiguresGeometriques {
-    public static void main(String[] args) {
-
-        Rectangle r = new Rectangle(5.0, 3.0);
-
-        System.out.println("Largeur : " + r.getLargeur());
-        System.out.println("Longueur : " + r.getLongueur());
-        System.out.println("Surface : " + r.surface());
-    }
-}
