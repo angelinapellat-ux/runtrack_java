@@ -1,0 +1,6 @@
+Java me renverrais une erreur par rapport a cette ligne : 
+System.out.println("Toto : " + toto);
+
+Toto appartient à chaque objet Toto (t1, t2…)
+main appartient à la classe Toto elle-même, pas aux objets
+Donc main ne peut pas utiliser toto sans passer par un objet
