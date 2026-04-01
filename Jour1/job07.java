@@ -1,4 +1,4 @@
-public class jour01 {
+public class job07 {
     public static void main(String[] args) {
 
         int somme = 0;

@@ -1,4 +1,4 @@
-public class jour01 {
+public class job00 {
     public static void main(String[] args) {
 
         char lettre = 'A';

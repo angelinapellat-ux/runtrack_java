@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class jour01 {
+public class job08 {
     public static void main(String[] args) {
 
         Scanner clavier = new Scanner(System.in);

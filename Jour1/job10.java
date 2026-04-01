@@ -1,4 +1,4 @@
-public class jour01 {
+public class job10 {
     public static void main(String[] args) {
 
         int resultat = 1;
