@@ -1,0 +1,11 @@
+x.a > correct E1 possède a
+y.c > incorrect E2 n'a pas c
+z.b > correct E3 hérite de E2
+v.c > incorrect E4 n'a pas c 
+w.a > correct E5 hérite de E1 
+
+
+Modifer ces lignes : 
+System.out.println(x.a);
+System.out.println(z.b);
+System.out.println(w.a);
